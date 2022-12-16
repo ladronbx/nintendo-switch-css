@@ -1,7 +1,10 @@
-body{
-    background-color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ee4630
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+
+
+*{
+    background-color: #c51e08;
+    font-family: 'Catamaran';
+    color: #ffffff
 }
 
 h1{
@@ -19,12 +22,9 @@ container {
 
 
 
-
-
-
 .nintendo{
-    background-color: white;
-    border.style: solid;
+    background-color: rgb(232, 232, 232);
+    border-style: transparent;
     border-radius: 107px;
     height: 515px;
     width: 1230px;
@@ -33,12 +33,248 @@ container {
 }
 
 #pantalla{
+    display: block;
+    border-style: solid;
+    border-width: 15px 25px 15px 25px;
+    border-color: #000000;
+    position: absolute;
+    margin: auto auto 165px 150px;
+    background-color: #171620;
+    height: 485px;
+    width: 886px;
+
+}
+#pantalla .lcd{
+    display: block;
+    border-style: solid;
+    border-width: 15px 25px 15px 25px;
+    border-color: #0d0c0c;
+    position: absolute;
+    margin: 0px auto;
+    background-color: #131313;
+    height: 455px;
+    width: 836px;
+/*  */
+}
+
+#boton-select{
+    position: absolute;
+    margin: 38px 30px 16px 110px;
+    background-color: #181a19;
+    height: 9px;
+    width: 30px;
+    display: block;
+    border-radius: 1px;
+}
+
+#boton-start-horizontal{
+    position: absolute;
+    margin: 38px 30px 16px 1095px;
+    background-color: #181a19;
+    height: 9px;
+    width: 30px;
+    display: block;
+    border-radius: 1px;
+}
+
+#boton-start-vertical{
+    position: absolute;
+    margin: 28px 30px 16px 1105px;
+    background-color: #181a19;
+    height: 30px;
+    width: 9px;
+    display: block;
+    border-radius: 1px;
+}
+
+#boton-joystick-izquierdo{
+    position: absolute;
+    border-style: trasparent;
+    border-radius: 50%;
+    margin: 75px 30px 16px 45px;
+    background-color: #181a19;
+    height: 80px;
+    width: 80px;
+    display: block;
+
+}
+
+#boton-joystick-derecho{
+    position: absolute;
+    border-style: trasparent;
+    border-radius: 50%;
+    margin: 230px 30px 16px 1115px;
+    background-color: #181a19;
+    height: 80px;
+    width: 80px;
+    display: block;
+}
+
+#boton-arriba{
+    position: absolute;
+    border-style: trasparent;
+    border-radius: 50%;
+    margin: 220px 30px 16px 55px;
+    background-color: #181a19;
+    height: 40px;
+    width: 40px;
+    display: block
+}
+
+
+#boton-abajo{
+    position: absolute;
+    border-style: trasparent;
+    border-radius: 50%;
+    margin: 300px 30px 16px 55px;
+    background-color: #181a19;
+    height: 40px;
+    width: 40px;
+    display: block
+}
+
+
+#boton-izquierda{
+    position: absolute;
+    border-style: trasparent;
+    border-radius: 50%;
+    margin: 260px 30px 16px 13px;
+    background-color: #181a19;
+    height: 40px;
+    width: 40px;
+    display: block
+}
+
+#boton-derecha{
+    position: absolute;
+    border-style: trasparent;
+    border-radius: 50%;
+    margin: 260px 30px 16px 98px;
+    background-color: #181a19;
+    height: 40px;
+    width: 40px;
+    display: block
+}
+
+#boton-x{
     
     position: absolute;
-    margin: auto auto 165px 165px;
-    background-color: #2e3838;
-    height: 515px;
-    width: 900px;
-    border-top: 9px;
+    border-style: trasparent;
+    border-radius: 50%;
+    margin: 70px 30px 16px 1135px;
+    background-color: #181a19;
+    height: 40px;
+    width: 40px;
+    display: block
+}
 
+#boton-x p{
+    font-family: 'catamaran';
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 1px;          
+}
+
+#boton-b{
+    position: absolute;
+    border-style: trasparent;
+    border-radius: 50%;
+    margin: 140px 30px 16px 1135px;
+    background-color: #181a19;
+    height: 40px;
+    width: 40px;
+    display: block
+}
+
+#boton-b p{
+    font-family: 'catamaran';
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 1px;              
+}
+
+#boton-y{
+    position: absolute;
+    border-style: trasparent;
+    border-radius: 50%;
+    margin: 110px 30px 16px 1100px;
+    background-color: #181a19;
+    height: 40px;
+    width: 40px;
+    display: block
+}
+
+#boton-y p{
+    font-family: 'catamaran';
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 1px;            
+}
+
+#boton-a{
+    position: absolute;
+    border-style: trasparent;
+    border-radius: 50%;
+    margin: 110px 30px 16px 1170px;
+    background-color: #181a19;
+    height: 40px;
+    width: 40px;
+    display: block
+}
+
+#boton-a p{
+    font-family: 'catamaran';
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 1px;             
+}
+
+#boton-casa{
+    position: absolute;
+    border-style: trasparent;
+    border-radius: 50%;
+    margin: 355px 30px 16px 1115px;
+    background-color: #181a19;
+    height: 40px;
+    width: 40px;
+    display: block
+}
+
+#boton-casa p{
+    font-family: 'catamaran';
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 2px;             
+}
+
+#boton-foto{
+    position: absolute;
+    border-style: trasparent;
+    border-radius: 1px;
+    margin: 360px 30px 16px 80px;
+    background-color: #181a19;
+    height: 36px;
+    width: 36px;
+    display: block
+}
+
+#boton-foto .circulo-foto{
+    position: absolute;
+    border-style: trasparent;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: #000000;
+    height: 27px;
+    width: 27px;
+    display: block
 }
