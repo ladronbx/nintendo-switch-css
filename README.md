@@ -8,9 +8,10 @@
 ***
 
 ## Descripción proyecto
->Dibujo de una consola Nintendo Swith Oled
+>Dibujo de una consola Nintendo Swith Oled.
+>Observada de frente
 
 ***
 
-## Herramientas que voy a usar
->HTML y CSS
+## Herramientas
+>Editor: VsCode. Lenguaje HTML y CSS para el diseño
