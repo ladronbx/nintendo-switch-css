@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
-
-
 *{
-    background-color: #c51e08;
+    background-color: #ce1515;
     font-family: 'Catamaran';
     color: #ffffff
 }
@@ -118,7 +115,7 @@ container {
     background-color: #181a19;
     height: 40px;
     width: 40px;
-    display: block
+    display: block;
 }
 
 
@@ -130,7 +127,7 @@ container {
     background-color: #181a19;
     height: 40px;
     width: 40px;
-    display: block
+    display: block;
 }
 
 
@@ -142,7 +139,7 @@ container {
     background-color: #181a19;
     height: 40px;
     width: 40px;
-    display: block
+    display: block;
 }
 
 #boton-derecha{
@@ -153,7 +150,7 @@ container {
     background-color: #181a19;
     height: 40px;
     width: 40px;
-    display: block
+    display: block;
 }
 
 #boton-x{
@@ -165,7 +162,7 @@ container {
     background-color: #181a19;
     height: 40px;
     width: 40px;
-    display: block
+    display: block;
 }
 
 #boton-x p{
@@ -185,7 +182,7 @@ container {
     background-color: #181a19;
     height: 40px;
     width: 40px;
-    display: block
+    display: block;
 }
 
 #boton-b p{
@@ -205,7 +202,7 @@ container {
     background-color: #181a19;
     height: 40px;
     width: 40px;
-    display: block
+    display: block;
 }
 
 #boton-y p{
@@ -225,8 +222,10 @@ container {
     background-color: #181a19;
     height: 40px;
     width: 40px;
-    display: block
+    display: block;
 }
+
+
 
 #boton-a p{
     font-family: 'catamaran';
@@ -237,25 +236,32 @@ container {
     margin-top: 1px;             
 }
 
+
+
+
+
 #boton-casa{
     position: absolute;
-    border-style: trasparent;
     border-radius: 50%;
     margin: 355px 30px 16px 1115px;
-    background-color: #181a19;
+    background-color: #929292;
     height: 40px;
     width: 40px;
-    display: block
+    display: block;
 }
 
-#boton-casa p{
-    font-family: 'catamaran';
-    font-size: 25px;
-    color: #ffffff;
-    text-align: center;
-    background-color: transparent;
-    margin-top: 2px;             
+button{
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    border-color: #222020;
+    margin: 3px 3px auto;
+    background-color: #181a19;
+    height: 34px;
+    width: 34px;
+    display: block;
 }
+
 
 #boton-foto{
     position: absolute;
@@ -263,18 +269,18 @@ container {
     border-radius: 1px;
     margin: 360px 30px 16px 80px;
     background-color: #181a19;
-    height: 36px;
-    width: 36px;
-    display: block
+    height: 34px;
+    width: 34px;
+    display: block;
 }
 
-#boton-foto .circulo-foto{
+.circulo-foto{
     position: absolute;
     border-style: trasparent;
     border-radius: 50%;
-    margin: 5px;
+    margin: 4px 4px auto;
     background-color: #000000;
     height: 27px;
     width: 27px;
-    display: block
+    display: block;
 }
