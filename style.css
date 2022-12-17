@@ -29,7 +29,7 @@ container {
     margin: 20px 0 50px 0;
 }
 
-#pantalla{
+.pantalla{
     display: block;
     border-style: solid;
     border-width: 15px 25px 15px 25px;
@@ -41,7 +41,9 @@ container {
     width: 886px;
 
 }
-#pantalla .lcd{
+
+/*Elemento JS. ENCENDIDO*/
+.pantalla #lcd-on{
     display: block;
     border-style: solid;
     border-width: 15px 25px 15px 25px;
@@ -51,7 +53,21 @@ container {
     background-color: #131313;
     height: 455px;
     width: 836px;
-/*  */
+}
+
+/*Elemento JS. APAGADO*/
+
+.pantalla #lcd-off{
+    display: block;
+    border-style: solid;
+    border-width: 15px 25px 15px 25px;
+    border-color: #0d0c0c;
+    position: absolute;
+    margin: 0px auto;
+    background-color: #131313;
+    height: 455px;
+    width: 836px;
+
 }
 
 #boton-select{

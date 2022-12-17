@@ -1,5 +1,3 @@
-const lcd = index.html.querySelector(".lcd");
-
-function enciende(){
-    lcd.getElementsByClassName.color="blue";
+function encender(){
+  document.getElementById("#lcd").style.backgroundColor=white;
 }
