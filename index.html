@@ -24,8 +24,10 @@
     <container>
         <div class="nintendo">
 
-            <div id="pantalla">
-                <div class="lcd"> </div>
+            <div class="pantalla">
+                <!--Elemento a asociar con JS. Interacción con el botón-->
+                <div id="lcd-on"> </div>
+                <div id="lcd-off"> </div>
             </div>
 
 
@@ -57,7 +59,11 @@
             </div>
 
             <div id="boton-casa">
-                <button onclick="enciende()"></button>
+                <button>
+                    <!--Elemento JS. Botón-->
+                    <div id="DivBtn" onclick="encender()">
+                      </div>
+                </button>
             </div>
             
                 <div id="boton-foto">
